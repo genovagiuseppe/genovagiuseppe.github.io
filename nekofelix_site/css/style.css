@@ -1,19 +1,26 @@
-.head {
+.head-logo {
     border: 1px solid red;
-    width: 960px;
 }
 
-.head ul {
-    float: right;
+.head-logo {
+
+}
+
+img {
+    border: 1px solid blue;
+}
+
+.head-logo ul {
     list-style-type: none;
+    float: right;
+    margin-right: 500px;
 }
 
-.head ul li {
+.head-logo ul li {
     float: left;
-    padding: 10px;
-    position: absolute;
+    /* elementi su singola riga */
 }
 
-.head ul li a {
+.head-logo ul li a {
     color: red;
 }
