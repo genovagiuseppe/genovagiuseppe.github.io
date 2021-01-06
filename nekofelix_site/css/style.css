@@ -1,12 +1,9 @@
 .head-logo {
-    border: 1px solid red;
     background-color:#404040 ;
 }
 
-img {
-    border: 1px solid blue;
-    width: 379px;
-    height: 110px;
+.logo {
+    height: 60px;
     padding-left:30px;
 }
 
@@ -19,7 +16,7 @@ img {
 
 .head-logo ul li {
     float: left;
-    margin: 30px auto;
+    margin: 5px auto;
     /* elementi su singola riga */
 }
 
