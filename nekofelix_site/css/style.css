@@ -1,26 +1,42 @@
 .head-logo {
     border: 1px solid red;
-}
-
-.head-logo {
-
+    background-color:#404040 ;
 }
 
 img {
     border: 1px solid blue;
+    width: 379px;
+    height: 110px;
+    padding-left:30px;
 }
 
 .head-logo ul {
     list-style-type: none;
     float: right;
-    margin-right: 500px;
+    padding-right:30px;
+
 }
 
 .head-logo ul li {
     float: left;
+    margin: 30px auto;
     /* elementi su singola riga */
 }
 
 .head-logo ul li a {
-    color: red;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: Segoe UI, bold;
 }
+
+.head-logo ul li a:hover {
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: Segoe UI;
+    text-decoration: underline;
+}
+
