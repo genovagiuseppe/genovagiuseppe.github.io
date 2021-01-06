@@ -25,7 +25,8 @@
     text-transform: uppercase;
     text-decoration: none;
     color: white;
-    font-family: Segoe UI, bold;
+    font-family: Raleway, bold;
+    
 }
 
 .head-logo ul li a:hover {
@@ -33,7 +34,22 @@
     text-transform: uppercase;
     text-decoration: none;
     color: white;
-    font-family: Segoe UI;
-    text-decoration: underline;
+    font-family: Raleway, bold;
+    font-weight: bold;
+    border-bottom: 2px solid white;
 }
 
+.head-logo ul li a:active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+
+}
+
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
